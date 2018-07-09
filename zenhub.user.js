@@ -6,7 +6,7 @@
 // @author       Michiel Helvensteijn <michiel@qubit.com>
 // @match        https://app.zenhub.com/workspace/o/qubitdigital/team-swat/boards*
 // @grant        none
-// @updateURL    
+// @updateURL    https://github.com/QubitProducts/user-scripts/raw/master/zenhub.user.js
 // ==/UserScript==
 
 (() => {
