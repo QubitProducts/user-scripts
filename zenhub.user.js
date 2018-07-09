@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Qubit Zenhub Mods
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Qubit Zenhub Mods
 // @author       Michiel Helvensteijn <michiel@qubit.com>
 // @match        https://app.zenhub.com/workspace/o/qubitdigital/team-swat/boards*
@@ -60,6 +60,8 @@
       ${cpr} .zhc-issue-card__heading__main .zhc-issue-card__repo-name {
         order: 2;
         margin-right: auto;
+        position: relative;
+        top: -1px;
       }
 
       ${cpr} .zhc-issue-card__heading__main .zhc-icon--issue-closed-red {
